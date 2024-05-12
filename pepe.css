@@ -1,0 +1,401 @@
+
+.body{
+    margin: 300px;
+}
+
+@font-face{
+    font-family:"TITULO";
+    src:url(font/Josefin-Bold.ttf); 
+  }
+  
+  
+  @font-face{
+    font-family:"TEXTO";
+    src:url(font/Josefin-Regular.ttf); 
+  }
+.titulo{
+  padding: 80px;
+  text-align: center;
+}
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    padding: 0;
+}
+
+.grid{
+    width: 100%;
+    height: auto;
+    
+}
+
+.grid img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns:(2, 1fr);
+    display: block;
+  }
+}
+
+.container3 p{
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text{
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    height: 50%;
+}
+
+
+.container5{
+  background-image: url(img/fondo\ pagina.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 2200px;
+}
+
+
+@media (max-width: 768px) {
+  .container5 {
+    height: 700px
+  }
+}
+ 
+.container4{
+  background-image: url(img/inicio2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px
+}
+
+.text{
+  float: left;
+  text-align: left;
+  font-family: "TEXTO";
+  font-size: 20px;
+  height: 40px;
+  width: 60%;
+  padding: 100px;
+  margin-top: 100px;
+  color: #fff
+
+}
+.boton{
+  background-color: #AB000C; 
+  padding: 5px 25px 5px 25px; 
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .text {
+    width:auto;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container4 {
+    height: 500px;
+  }
+}
+
+.cuadro1 {
+background-color: #AB000C;
+
+}
+
+.container6{
+  width: 100%;
+  height: auto;
+}
+
+
+.titulo h1{
+ 
+  font-family: 'TITULO';
+}
+.btn{
+background-color: #AB000C;
+font-family: 'TITULO';
+
+}
+
+.container9{ 
+    padding: 50px;
+    text-align: center;
+
+  }
+
+.container1{
+    display: block;
+    padding:100px ;
+  }
+
+.order form{
+    max-width:50rem;
+    border-radius: .5rem;
+    margin:0 auto;
+    font-family: SUBTEXTO;
+}
+
+.order form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     width:80%;
+}
+
+.order form .inputBox .input{
+    width:100%;≤
+    padding-left: 100px;
+}
+
+
+.order form .inputBox .input span{
+    display:block;
+    padding:.1rem 0;
+    font-size: 12px;
+    color:var(--light-color);
+
+}
+
+.order form .inputBox .input input,
+.order form .inputBox .input textarea{
+    background:#fff;
+    border-color: #494923;
+    font-family: "TEXTO";
+    border-width: 0.1rem;
+    border-radius: .5rem;
+    padding:1rem;
+    font-size: 12px;
+    text-transform: none;
+    margin-bottom: 1rem;
+    width:100%;
+}
+
+.elem-group {
+    background:#fff;
+    border-color: #494923;
+     border: 1px solid;
+    border-radius: .5rem;
+    padding: 12px;
+  
+}
+
+.select-css{
+    font-size: 10px;
+    color: #AB000C;
+    border: none;
+    background-color: 9;   
+}
+
+.dato{
+  display: inline-block;  
+}
+.select-css:hover {
+    background-color:#AB000C; 
+    color: #fff}
+
+
+
+
+
+
+    /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  display: flex;
+    width: 50%;
+   height: auto;
+    gap: 20px;
+    padding: 0;
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}z
+
+.dato{
+  display: inline-block;  
+}
+
+.container11{
+  
+  margin-top: 30px;
+  padding: 100px;
+  color: #fff;
+  font-family: "TEXTO";
+  font-size: 18px;
+
+}
+
+
+
+div .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #fff;
+  height: auto;
+  width: auto;
+	
+}
+
+
+
+.container {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 20px 0;
+  height: auto;
+  width: auto;
+}
+
+
+
+.container .card {
+	position: relative;
+	width: 400px;
+	height: 600px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.container .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.container .card .content .imgBx {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+  border-radius: 20px;
+}
+
+.container .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container .card .content .contentBx h3 {
+	color: darkgray;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.container .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+  margin-right: 40px;
+}
+
+.container .card .sci li {
+	list-style: none;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.container .card .sci li a {
+	color: darkgrey;
+	font-size: 20px;
+}
